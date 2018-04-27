@@ -32,8 +32,7 @@ html,body,div {
   padding: 0.3rem;
   margin: 0;
   background-color: #f2f2f2;
-  /* background-color: #dcdedf */
-}
+  }
 
 .heading-profile{
   padding: 0;
@@ -122,18 +121,6 @@ padding: 16px 32px;
   background: #fbfbfb;
 }
 
-/* .searchBox-inner {
-  padding: 0 !important;
-  background-color: #fbfbfb;
-  cursor: pointer;
-} */
-
-/* .searchBox-inner input:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-} */
-
 .sideBar {
   height: calc(100% - 128px);
   width: 100%;
@@ -147,7 +134,6 @@ padding: 16px 32px;
 
 .sideBar-body {
   margin: 0 !important;
-  /* padding: 0 !important; */
   padding-top: 1vh;
   height: 4rem;
   border-bottom: 0.6px solid #dcdedf;
@@ -164,8 +150,6 @@ padding: 16px 32px;
 }
 
 .sideNav-images{
-  /* max-height: 80%;
-  max-width: inherit; */
   height: 50px;
   width: 50px;
 }
@@ -186,9 +170,7 @@ padding: 16px 32px;
   padding: 0 !important;
   margin: 0 !important;
   height: 100%;
-  /*width: 100%;*/
   border-left: 1px solid rgba(0, 0, 0, .08);
-  /*overflow-y: auto;*/
 }
 
 .message {
@@ -248,7 +230,6 @@ padding: 16px 32px;
   padding: 4px 10px 7px !important;
   font-size: 12px;
 }
-
 
 /*Reply*/
 
@@ -318,17 +299,11 @@ padding: 16px 32px;
 .chat-window-link{
   width: 100%;
   }
-  /* .heading-newMessage {
-    padding: 5px !important;
-  } */
+  
   .heading-newMessage i {
-    /* color: #fff; */
     cursor: pointer;
   }
-  /* .heading-menu {
-    padding: 5px !important;
-    margin-left: 10px !important;
-  } */
+
   .heading-menu i {
     cursor: pointer;
   }
@@ -349,9 +324,7 @@ padding: 16px 32px;
     padding: 0 !important;
     margin: 0 !important;
     height: 100%;
-    /*width: 100%;*/
     border-left: 1px solid rgba(0, 0, 0, .08);
-    /*overflow-y: auto;*/
   }
   .message {
     height: calc(100% - 6rem);
@@ -365,7 +338,6 @@ padding: 16px 32px;
   }
   .reply-smiley i {
     padding: 5px !important;
-    /* font-size: 1.8em !important; */
   }
 
   .mic-dark{
@@ -375,22 +347,11 @@ padding: 16px 32px;
   .reply-text-box {
     padding: 5px !important;
   }
-  /* .reply-text-box textarea {
-    padding: 8px !important;
-    font-size: 18px;
-  }
-  .reply-recording {
-    padding: 5px 0 !important;
-  }
-  .reply-recording i {
-    padding: 5px 0 !important;
-    font-size: 1.8em !important;
-  } */
+  
   .reply-send {
     padding: 5px !important;
   }
   .reply-send i {
     padding: 5px !important;
-    /* font-size: 1.8em !important; */
   }
 }
