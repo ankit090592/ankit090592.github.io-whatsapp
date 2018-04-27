@@ -98,11 +98,28 @@
                     </div>
                     <div class="col heading-newMessage">
                         Click
-                        <a href="alert" class="alert-link">here</a> to turn on desktop notification.
+                        <a href="#" class="alert-link" data-toggle="modal" data-target="#exampleModal">here</a> to turn on desktop notification.
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document" style="height: auto;">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Desktop notification turned on!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="alert alert-dark" role="alert">
-                        This is a dark alert—check it out!
-                    </div>
+
                 </div>
 
 
@@ -735,7 +752,13 @@
     <script>
         $(function () {
             $('[data-toggle="popover"]').popover()
+            container: 'body'
         })
+
+        $(".alert-link").on("click", function () {
+            $(".alert").removeClass("in").show();
+            $(".alert").delay(200).addClass("in").fadeOut(10000);
+        });
     </script>
 </body>
 

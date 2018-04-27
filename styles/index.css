@@ -267,11 +267,11 @@ padding: 16px 32px;
   color: darkslategray;
   cursor: pointer;
 }
-
+/* 
 .popover{
   max-height: 50%;
   margin-left: 120px !important;
-}
+} */
 
 .reply-send {
   padding: 10px !important;
